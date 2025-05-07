@@ -1,8 +1,8 @@
 ---
 name: Bug Template
 about: 버그 템플릿
-title: '[BE/bug] 발생한 버그 제목'
-labels: '🤖 BE, 🐛 bug'
+title: '[bug] 발생한 버그 제목'
+labels: 'bug'
 assignees: ''
 ---
 
