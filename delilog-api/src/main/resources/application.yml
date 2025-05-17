@@ -3,6 +3,8 @@ spring:
     name: delilog
   profiles:
     active: local
+  config:
+    import: application-logger.yml
 
 ---
 spring:

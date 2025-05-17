@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm")
     kotlin("plugin.spring") apply false
     id("org.springframework.boot") apply false
-    id("io.spring.dependency-management") apply false
+    id("io.spring.dependency-management")
 }
 
 val projectGroup: String by project
@@ -25,6 +25,12 @@ subprojects {
     apply(plugin = "org.jetbrains.kotlin.plugin.spring")
     apply(plugin = "org.springframework.boot")
     apply(plugin = "io.spring.dependency-management")
+
+    dependencyManagement {
+        imports {
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudDependenciesVersion")}")
+        }
+    }
 
     dependencies {
         implementation("org.jetbrains.kotlin:kotlin-reflect")

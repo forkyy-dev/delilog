@@ -5,6 +5,7 @@ include(
     "delilog-application",
     "delilog-domain",
     "delilog-infrastructure",
+    "delilog-logger"
 )
 
 pluginManagement {
