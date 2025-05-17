@@ -3,7 +3,6 @@ name: Feature Template
 about: 기능 구현 작성 템플릿
 title: '[feat] 구현할 기능 제목'
 labels: 'feat'
-projects: 'Sprint1'
 assignees: 'forkyy-dev'
 ---
 ## 📝 구현 목록
