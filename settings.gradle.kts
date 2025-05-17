@@ -1,10 +1,9 @@
 rootProject.name = "delilog"
 
 include(
-    "delilog-api",
-    "delilog-application",
-    "delilog-domain",
-    "delilog-infrastructure",
+    "delilog-core:core-api",
+    "delilog-core:core-domain",
+    "delilog-db",
     "delilog-logger"
 )
 

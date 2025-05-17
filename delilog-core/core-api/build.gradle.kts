@@ -1,5 +1,5 @@
 dependencies {
-    implementation(project(":delilog-application"))
+    implementation(project(":delilog-core:core-domain"))
     implementation(project(":delilog-logger"))
 
     implementation("org.springframework.boot:spring-boot-starter-web")

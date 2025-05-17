@@ -1,4 +1,4 @@
-package com.delilog.api
+package com.delilog
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
