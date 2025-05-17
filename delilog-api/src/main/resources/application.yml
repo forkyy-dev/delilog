@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: delilog
+  profiles:
+    active: local
+  config:
+    import: application-logger.yml
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod

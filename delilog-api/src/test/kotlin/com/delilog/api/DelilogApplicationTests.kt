@@ -1,4 +1,4 @@
-package com.delilog
+package com.delilog.api
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
