@@ -1,9 +1,9 @@
-package com.delilog
+package com.delilog.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = ["com.delilog"])
 class DelilogApplication
 
 fun main(args: Array<String>) {
